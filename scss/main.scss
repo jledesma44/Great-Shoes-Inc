@@ -47,15 +47,16 @@ h1, h2, h3, p {
 }
 .primary-title {
     font-size: 4rem;
-    font-size: clamp(3rem, calc(5vw + 1rem), 4.5rem)
+    font-size: clamp(3rem, calc(5vw + 1rem), 4.5rem);
     line-height: 1;
     text-transform: uppercase;
 }
 .section-title {
-
+    padding: 0;
 }
 .hero {
     text-align: center;
     padding: 15em 0;
     background-image: url(../img/shoe-3.png)
     
+}
