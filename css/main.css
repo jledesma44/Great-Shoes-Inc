@@ -46,5 +46,8 @@ h1, h2, h3, p {
     
 }
 .primary-title {
-
+    font-size: 4rem;
+    font-size: clamp(3rem, calc(5vw + 1rem), 4.5rem);
+    line-height: 1;
+    text-transform: uppercase;
 }
